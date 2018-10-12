@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "globalhackMicrowebservices",
+    "packageName": "com.globalhack.microwebservice.app",
+    "packageFolder": "com/globalhack/microwebservice/app",
+    "serverPort": 9092,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.4.2",
+    "jwtSecretKey": "MTExMjFlMmIxZmU2OWQ4YzBkNmUwOGI2MmRhNTk3YTllNzZjOWMwNjY4NDVkOGFlNWM1ZGIyNDcwMzk1NDhmOTVkYTBjODkxOWQwNGYyN2EzNDE2M2UzMDZmYmViNGQ4ZTA1NmJiYzk5YmUwYzE1MGI1OTYxNzZhMjRjYmZkMTA=",
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "nareshMaharjan",
+  "repository-name": "globalhackMicrowebservices"
+}
